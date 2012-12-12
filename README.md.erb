@@ -4,6 +4,7 @@ Get up and going with a good set of pry tools right away.
 
 <%
   require 'cgi'
+  require 'yaml'
   list = YAML.load_file 'in.yml'
   def h unclean
     CGI::escapeHTML unclean
