@@ -2,9 +2,9 @@
 Gem::Specification.new do |s|
   deps = YAML.load_file('in.yml')
   s.name          = 'pry-full18'
-  s.version       = 1.0
+  s.version       = 0.4
   s.summary       = 'A metagem; Pry + all plugins that work on Ruby 1.8'
-  s.description   = deps.keys.join ' + '
+  s.description   = 'Pry plugins approved for 1.8: ' + deps.keys.join(' + ')
   s.homepage      = 'https://github.com/rking/pry-full18'
   s.email         = 'rking-pry-full18@sharpsaw.org'
   s.authors       = ['☈king']
